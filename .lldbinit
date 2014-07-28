@@ -1,0 +1,3 @@
+command alias return thread return
+command regex desc s/(.+)/expr DescriptionForInstance(%1)/ 's/(^$)/expr DescriptionForInstance(self)/'
+
